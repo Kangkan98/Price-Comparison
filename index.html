@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;PriceDekho - Indian E-Commerce Price Comparison&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--primary: #2563eb;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bg-dark: #0f172a;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bg-card: #1e293b;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--text-main: #f8fafc;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--text-muted: #94a3b8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--border: #334155;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--accent-green: #22c55e;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>/* Indian E-Commerce Brand Colors */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--amazon-color: #ff9900;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--flipkart-color: #2874f0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--meesho-color: #f43397;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--bg-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-main);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 2rem 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 1000px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>header h1 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 2.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>header h1 span {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-green);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>header p {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-muted);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.95rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Search Section */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.search-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--bg-card);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.search-box {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 0.75rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.search-box input {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #0f172a;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.75rem 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-main);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>outline: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.search-box button {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.75rem 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.location-check {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.85rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-muted);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.location-check input {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #0f172a;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-main);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.25rem 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 110px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Product Overview Card */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--bg-card);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-image {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 110px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 110px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #334155;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-muted);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-shrink: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-info h2 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.25rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 0.4rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-info p {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-muted);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.85rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.savings-tag {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(34, 197, 94, 0.15);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-green);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.25rem 0.6rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Comparison Table */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.table-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow-x: auto;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.comparison-table {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-collapse: collapse;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--bg-card);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.comparison-table th,</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.comparison-table td {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: left;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-bottom: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.comparison-table th {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #0f172a;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-muted);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 0.05em;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.comparison-table tr:last-child td {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-bottom: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Brand Styling */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.platform-badge {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: inline-flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.3rem 0.6rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.85rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.platform-amazon { background-color: var(--amazon-color); color: #000; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.platform-flipkart { background-color: var(--flipkart-color); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.platform-meesho { background-color: var(--meesho-color); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.price {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.15rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.badge-lowest {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(34, 197, 94, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-green);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.2rem 0.4rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.75rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-left: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-buy {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.4rem 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.85rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-buy:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 640px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.product-card {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.comparison-table th:nth-child(3),</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.comparison-table td:nth-child(3) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1&gt;Price&lt;span&gt;Dekho&lt;/span&gt; India&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Compare real-time prices across Amazon India, Flipkart, and Meesho&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="search-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="search-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;input type="text" value="Boat Airdopes 141 Bluetooth TWS Earbuds"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button&gt;Search&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="location-check"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;label for="pincode"&gt;Deliver to Pincode:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;input type="text" id="pincode" placeholder="e.g. 110001" value="110001"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span&gt;(Checks availability &amp; shipping fees)&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="product-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="product-image"&gt;Product Image&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="product-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2&gt;boAt Airdopes 141 Bluetooth Truly Wireless In Ear Earbuds&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Color: Bold Black | 42H Playtime | ENx Tech&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="savings-tag"&gt;Save up to ₹400 by comparing platforms&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="table-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;table class="comparison-table"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;th&gt;Platform&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;th&gt;Price (INR)&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;th&gt;Delivery &amp; Cash on Delivery&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;th&gt;Action&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tbody&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="platform-badge platform-meesho"&gt;Meesho&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="price"&gt;₹999&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="badge-lowest"&gt;Lowest Price&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;Free Delivery | COD Available&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;&lt;a href="https://www.meesho.com" target="_blank" rel="noopener" class="btn-buy"&gt;Buy on Meesho&lt;/a&gt;&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="platform-badge platform-amazon"&gt;Amazon.in&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="price"&gt;₹1,299&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;Free Delivery (Prime) | COD Available&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;&lt;a href="https://www.amazon.in" target="_blank" rel="noopener" class="btn-buy"&gt;Buy on Amazon&lt;/a&gt;&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="platform-badge platform-flipkart"&gt;Flipkart&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="price"&gt;₹1,399&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;₹40 Delivery Fee | COD Available&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;td&gt;&lt;a href="https://www.flipkart.com" target="_blank" rel="noopener" class="btn-buy"&gt;Buy on Flipkart&lt;/a&gt;&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tbody&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
